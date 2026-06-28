@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="120" viewBox="0 0 430 120" role="img" aria-label="SleepSage">
+  <title>SleepSage</title>
+  <defs>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+    <!-- Crescent = full disk minus an offset disk -->
+    <mask id="crescent">
+      <circle cx="44" cy="60" r="32" fill="#fff"/>
+      <circle cx="58" cy="52" r="28" fill="#000"/>
+    </mask>
+  </defs>
+
+  <!-- Crescent moon glyph -->
+  <circle cx="44" cy="60" r="32" fill="url(#moon)" mask="url(#crescent)"/>
+  <!-- Small star -->
+  <path d="M72 34 l2.4 5 5 2.4 -5 2.4 -2.4 5 -2.4 -5 -5 -2.4 5 -2.4 Z" fill="#818cf8"/>
+
+  <!-- Wordmark -->
+  <text x="98" y="78"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-size="54" font-weight="700" fill="#15171a" letter-spacing="-1">SleepSage</text>
+</svg>

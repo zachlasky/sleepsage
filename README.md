@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo.svg" alt="SleepSage" width="320" />
+</p>
+
 # SleepSage
 
 SleepSage is a personalized supplement recommendation platform. A user answers a short
