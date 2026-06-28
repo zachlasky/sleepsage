@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SleepSage" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: SleepSage
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "HOME" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "QUIZ" [ref=e12] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=e13]:
+            - link "SUPPLEMENTS" [ref=e14] [cursor=pointer]:
+              - /url: /supplements
+          - listitem [ref=e15]:
+            - link "PRODUCTS" [ref=e16] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e17]:
+            - link "BLOG" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e19]:
+            - link "ABOUT" [ref=e20] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e21]:
+            - link "LEGAL" [ref=e22] [cursor=pointer]:
+              - /url: /legal
+    - generic [ref=e23]:
+      - generic [ref=e26]:
+        - heading "BROWSE 6 SUPPLEMENTS" [level=2] [ref=e27]
+        - paragraph [ref=e28]: Carefully curated supplements backed by science and designed to help you achieve better sleep.
+      - generic [ref=e29]:
+        - link "Supplement Gentle Iron Complex Easy-on-the-stomach iron to support energy and healthy blood. LEARN MORE" [ref=e30] [cursor=pointer]:
+          - /url: https://example.com/supplements/iron
+          - img "Supplement" [ref=e32]
+          - generic [ref=e33]:
+            - heading "Gentle Iron Complex" [level=3] [ref=e34]
+            - paragraph [ref=e35]: Easy-on-the-stomach iron to support energy and healthy blood.
+          - generic [ref=e37]: LEARN MORE
+        - link "Supplement Magnesium Glycinate Highly absorbable magnesium for sleep, muscle, and stress relief. LEARN MORE" [ref=e38] [cursor=pointer]:
+          - /url: https://example.com/supplements/magnesium
+          - img "Supplement" [ref=e40]
+          - generic [ref=e41]:
+            - heading "Magnesium Glycinate" [level=3] [ref=e42]
+            - paragraph [ref=e43]: Highly absorbable magnesium for sleep, muscle, and stress relief.
+          - generic [ref=e45]: LEARN MORE
+        - link "Supplement Melatonin 5mg Supports healthy sleep onset and a balanced sleep cycle. LEARN MORE" [ref=e46] [cursor=pointer]:
+          - /url: https://example.com/supplements/melatonin
+          - img "Supplement" [ref=e48]
+          - generic [ref=e49]:
+            - heading "Melatonin 5mg" [level=3] [ref=e50]
+            - paragraph [ref=e51]: Supports healthy sleep onset and a balanced sleep cycle.
+          - generic [ref=e53]: LEARN MORE
+        - link "Supplement Vitamin B12 Sublingual Fast-absorbing B12 to combat fatigue and support energy metabolism. LEARN MORE" [ref=e54] [cursor=pointer]:
+          - /url: https://example.com/supplements/vitamin-b12
+          - img "Supplement" [ref=e56]
+          - generic [ref=e57]:
+            - heading "Vitamin B12 Sublingual" [level=3] [ref=e58]
+            - paragraph [ref=e59]: Fast-absorbing B12 to combat fatigue and support energy metabolism.
+          - generic [ref=e61]: LEARN MORE
+        - link "Supplement Vitamin C 1000mg High-potency vitamin C to support immune health and reduce fatigue. LEARN MORE" [ref=e62] [cursor=pointer]:
+          - /url: https://example.com/supplements/vitamin-c
+          - img "Supplement" [ref=e64]
+          - generic [ref=e65]:
+            - heading "Vitamin C 1000mg" [level=3] [ref=e66]
+            - paragraph [ref=e67]: High-potency vitamin C to support immune health and reduce fatigue.
+          - generic [ref=e69]: LEARN MORE
+        - link "Supplement Vitamin D3 2000 IU Daily vitamin D3 for bone strength, mood, and immune support. LEARN MORE" [ref=e70] [cursor=pointer]:
+          - /url: https://example.com/supplements/vitamin-d3
+          - img "Supplement" [ref=e72]
+          - generic [ref=e73]:
+            - heading "Vitamin D3 2000 IU" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Daily vitamin D3 for bone strength, mood, and immune support.
+          - generic [ref=e77]: LEARN MORE
+      - generic [ref=e78]:
+        - paragraph [ref=e79]: Showing 1 to 6 of 6 Supplements
+        - navigation [ref=e80]:
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - button "Previous" [disabled] [ref=e83]:
+                - img [ref=e84]
+                - text: Previous
+            - listitem [ref=e86]:
+              - button "Next" [disabled] [ref=e87]:
+                - text: Next
+                - img [ref=e88]
+    - contentinfo [ref=e90]: SleepSage © 2025
+  - status [ref=e91]:
+    - generic [ref=e92]:
+      - img [ref=e94]
+      - generic [ref=e96]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e97] [cursor=pointer]:
+          - img [ref=e98]
+  - alert [ref=e101]

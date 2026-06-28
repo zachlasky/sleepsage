@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SleepSage" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: SleepSage
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "HOME" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "QUIZ" [ref=e12] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=e13]:
+            - link "SUPPLEMENTS" [ref=e14] [cursor=pointer]:
+              - /url: /supplements
+          - listitem [ref=e15]:
+            - link "PRODUCTS" [ref=e16] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e17]:
+            - link "BLOG" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e19]:
+            - link "ABOUT" [ref=e20] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e21]:
+            - link "LEGAL" [ref=e22] [cursor=pointer]:
+              - /url: /legal
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e27]:
+          - log [ref=e29]
+          - generic [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: Category
+              - combobox [ref=e34]
+            - img [ref=e38]
+        - generic [ref=e40]:
+          - heading "BROWSE 5 PRODUCTS" [level=2] [ref=e41]
+          - paragraph [ref=e42]: Products to help you on your sleep journey.
+      - generic [ref=e43]:
+        - link "Supplement CalmCore Stress Support Ashwagandha and L-theanine for everyday calm. LEARN MORE" [ref=e44] [cursor=pointer]:
+          - /url: https://example.com/products/calmcore
+          - img "Supplement" [ref=e46]
+          - generic [ref=e47]:
+            - heading "CalmCore Stress Support" [level=3] [ref=e48]
+            - paragraph [ref=e49]: Ashwagandha and L-theanine for everyday calm.
+          - generic [ref=e51]: LEARN MORE
+        - link "Supplement DailyBoost Energy Multivitamin Complete daily multivitamin formulated to fight fatigue. LEARN MORE" [ref=e52] [cursor=pointer]:
+          - /url: https://example.com/products/dailyboost
+          - img "Supplement" [ref=e54]
+          - generic [ref=e55]:
+            - heading "DailyBoost Energy Multivitamin" [level=3] [ref=e56]
+            - paragraph [ref=e57]: Complete daily multivitamin formulated to fight fatigue.
+          - generic [ref=e59]: LEARN MORE
+        - link "Supplement DreamWell Sleep Blend Magnesium + melatonin blend for restful nights. LEARN MORE" [ref=e60] [cursor=pointer]:
+          - /url: https://example.com/products/dreamwell
+          - img "Supplement" [ref=e62]
+          - generic [ref=e63]:
+            - heading "DreamWell Sleep Blend" [level=3] [ref=e64]
+            - paragraph [ref=e65]: Magnesium + melatonin blend for restful nights.
+          - generic [ref=e67]: LEARN MORE
+        - link "Supplement ImmunoShield Defense Vitamin C, D3, and zinc immune support pack. LEARN MORE" [ref=e68] [cursor=pointer]:
+          - /url: https://example.com/products/immunoshield
+          - img "Supplement" [ref=e70]
+          - generic [ref=e71]:
+            - heading "ImmunoShield Defense" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Vitamin C, D3, and zinc immune support pack.
+          - generic [ref=e75]: LEARN MORE
+        - link "Supplement OmegaPure Heart Formula Premium omega-3 fish oil for cardiovascular health. LEARN MORE" [ref=e76] [cursor=pointer]:
+          - /url: https://example.com/products/omegapure
+          - img "Supplement" [ref=e78]
+          - generic [ref=e79]:
+            - heading "OmegaPure Heart Formula" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Premium omega-3 fish oil for cardiovascular health.
+          - generic [ref=e83]: LEARN MORE
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: Showing 1 to 5 of 5 Supplements
+        - navigation [ref=e86]:
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - button "Previous" [disabled] [ref=e89]:
+                - img [ref=e90]
+                - text: Previous
+            - listitem [ref=e92]:
+              - button "Next" [disabled] [ref=e93]:
+                - text: Next
+                - img [ref=e94]
+    - contentinfo [ref=e96]: SleepSage © 2025
+  - status [ref=e97]:
+    - generic [ref=e98]:
+      - img [ref=e100]
+      - generic [ref=e102]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e103] [cursor=pointer]:
+          - img [ref=e104]
+  - alert [ref=e107]

@@ -1,0 +1,37 @@
+# ─── Secrets / environment ───────────────────────────────
+# Never commit env files or local backups of them.
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+*.bak
+
+# ─── Dependencies ────────────────────────────────────────
+node_modules/
+**/node_modules/
+
+# ─── Build / framework output ────────────────────────────
+.next/
+**/.next/
+out/
+**/out/
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+*.tsbuildinfo
+
+# ─── Go ──────────────────────────────────────────────────
+*.exe
+*.test
+*.out
+
+# ─── Misc ────────────────────────────────────────────────
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea/

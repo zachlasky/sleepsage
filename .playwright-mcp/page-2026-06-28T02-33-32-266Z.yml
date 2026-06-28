@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SleepSage" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: SleepSage
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "HOME" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "QUIZ" [ref=e12] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=e13]:
+            - link "SUPPLEMENTS" [ref=e14] [cursor=pointer]:
+              - /url: /supplements
+          - listitem [ref=e15]:
+            - link "PRODUCTS" [ref=e16] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e17]:
+            - link "BLOG" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e19]:
+            - link "ABOUT" [ref=e20] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e21]:
+            - link "LEGAL" [ref=e22] [cursor=pointer]:
+              - /url: /legal
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - heading "Here are your recommended sleep supplements." [level=2] [ref=e26]
+          - paragraph [ref=e27]: Try one out!
+        - generic [ref=e28]:
+          - link "Supplement Vitamin B12 Sublingual Fast-absorbing B12 to combat fatigue and support energy metabolism. LEARN MORE" [ref=e29] [cursor=pointer]:
+            - /url: https://example.com/supplements/vitamin-b12
+            - img "Supplement" [ref=e31]
+            - generic [ref=e32]:
+              - heading "Vitamin B12 Sublingual" [level=3] [ref=e33]
+              - paragraph [ref=e34]: Fast-absorbing B12 to combat fatigue and support energy metabolism.
+            - generic [ref=e36]: LEARN MORE
+          - link "Supplement Gentle Iron Complex Easy-on-the-stomach iron to support energy and healthy blood. LEARN MORE" [ref=e37] [cursor=pointer]:
+            - /url: https://example.com/supplements/iron
+            - img "Supplement" [ref=e39]
+            - generic [ref=e40]:
+              - heading "Gentle Iron Complex" [level=3] [ref=e41]
+              - paragraph [ref=e42]: Easy-on-the-stomach iron to support energy and healthy blood.
+            - generic [ref=e44]: LEARN MORE
+          - link "Supplement Magnesium Glycinate Highly absorbable magnesium for sleep, muscle, and stress relief. LEARN MORE" [ref=e45] [cursor=pointer]:
+            - /url: https://example.com/supplements/magnesium
+            - img "Supplement" [ref=e47]
+            - generic [ref=e48]:
+              - heading "Magnesium Glycinate" [level=3] [ref=e49]
+              - paragraph [ref=e50]: Highly absorbable magnesium for sleep, muscle, and stress relief.
+            - generic [ref=e52]: LEARN MORE
+        - button "BROWSE MORE SLEEP SUPPLEMENTS" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: BROWSE MORE SLEEP SUPPLEMENTS
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Here are your recommended sleep products." [level=2] [ref=e57]
+          - paragraph [ref=e58]: Try one out!
+        - generic [ref=e59]:
+          - link "Supplement DailyBoost Energy Multivitamin Complete daily multivitamin formulated to fight fatigue. LEARN MORE" [ref=e60] [cursor=pointer]:
+            - /url: https://example.com/products/dailyboost
+            - img "Supplement" [ref=e62]
+            - generic [ref=e63]:
+              - heading "DailyBoost Energy Multivitamin" [level=3] [ref=e64]
+              - paragraph [ref=e65]: Complete daily multivitamin formulated to fight fatigue.
+            - generic [ref=e67]: LEARN MORE
+          - link "Supplement DreamWell Sleep Blend Magnesium + melatonin blend for restful nights. LEARN MORE" [ref=e68] [cursor=pointer]:
+            - /url: https://example.com/products/dreamwell
+            - img "Supplement" [ref=e70]
+            - generic [ref=e71]:
+              - heading "DreamWell Sleep Blend" [level=3] [ref=e72]
+              - paragraph [ref=e73]: Magnesium + melatonin blend for restful nights.
+            - generic [ref=e75]: LEARN MORE
+          - link "Supplement CalmCore Stress Support Ashwagandha and L-theanine for everyday calm. LEARN MORE" [ref=e76] [cursor=pointer]:
+            - /url: https://example.com/products/calmcore
+            - img "Supplement" [ref=e78]
+            - generic [ref=e79]:
+              - heading "CalmCore Stress Support" [level=3] [ref=e80]
+              - paragraph [ref=e81]: Ashwagandha and L-theanine for everyday calm.
+            - generic [ref=e83]: LEARN MORE
+        - button "BROWSE MORE SLEEP PRODUCTS" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: BROWSE MORE SLEEP PRODUCTS
+    - contentinfo [ref=e86]: SleepSage © 2025
+  - status [ref=e87]:
+    - generic [ref=e88]:
+      - img [ref=e90]
+      - generic [ref=e92]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e93] [cursor=pointer]:
+          - img [ref=e94]
+  - alert [ref=e97]

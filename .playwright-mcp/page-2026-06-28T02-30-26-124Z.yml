@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SleepSage" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: SleepSage
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "HOME" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "QUIZ" [ref=e12] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=e13]:
+            - link "SUPPLEMENTS" [ref=e14] [cursor=pointer]:
+              - /url: /supplements
+          - listitem [ref=e15]:
+            - link "PRODUCTS" [ref=e16] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e17]:
+            - link "BLOG" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e19]:
+            - link "ABOUT" [ref=e20] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e21]:
+            - link "LEGAL" [ref=e22] [cursor=pointer]:
+              - /url: /legal
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e27]:
+            - log [ref=e29]
+            - generic [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: Helps with...
+                - combobox [ref=e34]
+              - img [ref=e38]
+          - generic [ref=e41]:
+            - log [ref=e43]
+            - generic [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]:
+                - generic [ref=e46]: Conflicts with...
+                - combobox [ref=e48]
+              - img [ref=e52]
+          - generic [ref=e55]:
+            - log [ref=e57]
+            - generic [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]:
+                - generic [ref=e60]: Not recommended for...
+                - combobox [ref=e62]
+              - img [ref=e66]
+        - generic [ref=e68]:
+          - heading "BROWSE 10 SUPPLEMENTS" [level=2] [ref=e69]
+          - paragraph [ref=e70]: Carefully curated supplements backed by science and designed to help you achieve better sleep.
+      - generic [ref=e71]:
+        - link "Supplement Ashwagandha KSM-66 Clinically studied adaptogen for stress and anxiety support. LEARN MORE" [ref=e72] [cursor=pointer]:
+          - /url: https://example.com/supplements/ashwagandha
+          - img "Supplement" [ref=e74]
+          - generic [ref=e75]:
+            - heading "Ashwagandha KSM-66" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Clinically studied adaptogen for stress and anxiety support.
+          - generic [ref=e79]: LEARN MORE
+        - link "Supplement Gentle Iron Complex Easy-on-the-stomach iron to support energy and healthy blood. LEARN MORE" [ref=e80] [cursor=pointer]:
+          - /url: https://example.com/supplements/iron
+          - img "Supplement" [ref=e82]
+          - generic [ref=e83]:
+            - heading "Gentle Iron Complex" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Easy-on-the-stomach iron to support energy and healthy blood.
+          - generic [ref=e87]: LEARN MORE
+        - link "Supplement L-Theanine 200mg Promotes calm, focused relaxation without drowsiness. LEARN MORE" [ref=e88] [cursor=pointer]:
+          - /url: https://example.com/supplements/l-theanine
+          - img "Supplement" [ref=e90]
+          - generic [ref=e91]:
+            - heading "L-Theanine 200mg" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Promotes calm, focused relaxation without drowsiness.
+          - generic [ref=e95]: LEARN MORE
+        - link "Supplement Magnesium Glycinate Highly absorbable magnesium for sleep, muscle, and stress relief. LEARN MORE" [ref=e96] [cursor=pointer]:
+          - /url: https://example.com/supplements/magnesium
+          - img "Supplement" [ref=e98]
+          - generic [ref=e99]:
+            - heading "Magnesium Glycinate" [level=3] [ref=e100]
+            - paragraph [ref=e101]: Highly absorbable magnesium for sleep, muscle, and stress relief.
+          - generic [ref=e103]: LEARN MORE
+        - link "Supplement Melatonin 5mg Supports healthy sleep onset and a balanced sleep cycle. LEARN MORE" [ref=e104] [cursor=pointer]:
+          - /url: https://example.com/supplements/melatonin
+          - img "Supplement" [ref=e106]
+          - generic [ref=e107]:
+            - heading "Melatonin 5mg" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Supports healthy sleep onset and a balanced sleep cycle.
+          - generic [ref=e111]: LEARN MORE
+        - link "Supplement Omega-3 Fish Oil High-EPA/DHA fish oil for heart, brain, and joint health. LEARN MORE" [ref=e112] [cursor=pointer]:
+          - /url: https://example.com/supplements/omega-3
+          - img "Supplement" [ref=e114]
+          - generic [ref=e115]:
+            - heading "Omega-3 Fish Oil" [level=3] [ref=e116]
+            - paragraph [ref=e117]: High-EPA/DHA fish oil for heart, brain, and joint health.
+          - generic [ref=e119]: LEARN MORE
+        - link "Supplement Vitamin B12 Sublingual Fast-absorbing B12 to combat fatigue and support energy metabolism. LEARN MORE" [ref=e120] [cursor=pointer]:
+          - /url: https://example.com/supplements/vitamin-b12
+          - img "Supplement" [ref=e122]
+          - generic [ref=e123]:
+            - heading "Vitamin B12 Sublingual" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Fast-absorbing B12 to combat fatigue and support energy metabolism.
+          - generic [ref=e127]: LEARN MORE
+        - link "Supplement Vitamin C 1000mg High-potency vitamin C to support immune health and reduce fatigue. LEARN MORE" [ref=e128] [cursor=pointer]:
+          - /url: https://example.com/supplements/vitamin-c
+          - img "Supplement" [ref=e130]
+          - generic [ref=e131]:
+            - heading "Vitamin C 1000mg" [level=3] [ref=e132]
+            - paragraph [ref=e133]: High-potency vitamin C to support immune health and reduce fatigue.
+          - generic [ref=e135]: LEARN MORE
+      - generic [ref=e136]:
+        - paragraph [ref=e137]: Showing 1 to 8 of 10 Supplements
+        - navigation [ref=e138]:
+          - list [ref=e139]:
+            - listitem [ref=e140]:
+              - button "Previous" [disabled] [ref=e141]:
+                - img [ref=e142]
+                - text: Previous
+            - listitem [ref=e144]:
+              - button "1" [ref=e145] [cursor=pointer]
+            - listitem [ref=e146]:
+              - button "2" [ref=e147] [cursor=pointer]
+            - listitem [ref=e148]:
+              - button "Next" [ref=e149] [cursor=pointer]:
+                - text: Next
+                - img [ref=e150]
+    - contentinfo [ref=e152]: SleepSage © 2025
+  - status [ref=e153]:
+    - generic [ref=e154]:
+      - img [ref=e156]
+      - generic [ref=e158]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e159] [cursor=pointer]:
+          - img [ref=e160]
+  - alert [ref=e163]

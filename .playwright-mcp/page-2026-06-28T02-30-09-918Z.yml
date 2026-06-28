@@ -1,0 +1,62 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "SleepSage" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e6]: SleepSage
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "HOME" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "QUIZ" [ref=e12] [cursor=pointer]:
+              - /url: /quiz
+          - listitem [ref=e13]:
+            - link "SUPPLEMENTS" [ref=e14] [cursor=pointer]:
+              - /url: /supplements
+          - listitem [ref=e15]:
+            - link "PRODUCTS" [ref=e16] [cursor=pointer]:
+              - /url: /products
+          - listitem [ref=e17]:
+            - link "BLOG" [ref=e18] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e19]:
+            - link "ABOUT" [ref=e20] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e21]:
+            - link "LEGAL" [ref=e22] [cursor=pointer]:
+              - /url: /legal
+    - generic [ref=e23]:
+      - generic [ref=e25]: FIND YOUR PERFECT SUPPLEMENT
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: Question 1 of 10
+        - paragraph [ref=e28]: What is your age range?
+      - generic [ref=e30]:
+        - button "18-29" [ref=e31] [cursor=pointer]:
+          - generic [ref=e33]:
+            - img [ref=e34]
+            - paragraph [ref=e36]: 18-29
+        - button "30-44" [ref=e37] [cursor=pointer]:
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - paragraph [ref=e42]: 30-44
+        - button "45-64" [ref=e43] [cursor=pointer]:
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - paragraph [ref=e48]: 45-64
+        - button "65+" [ref=e49] [cursor=pointer]:
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - paragraph [ref=e54]: 65+
+      - button "NEXT" [disabled] [ref=e56]:
+        - generic [ref=e57]: NEXT
+    - contentinfo [ref=e58]: SleepSage © 2025
+  - status [ref=e59]:
+    - generic [ref=e60]:
+      - img [ref=e62]
+      - generic [ref=e64]:
+        - text: Static route
+        - button "Hide static indicator" [ref=e65] [cursor=pointer]:
+          - img [ref=e66]
+  - alert [ref=e69]
